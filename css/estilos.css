@@ -1,0 +1,54 @@
+:root {
+    --colorPrimario: #417041;
+    --colorSecundario: #754E1F;
+}
+
+body {
+    margin-top: 4em;
+    background-color: var(--colorPrimario);
+    color: white;
+}
+
+.card .card-body  {
+    background-color: white !important;
+    color: black;
+}
+
+.card-title {
+    color: var(--colorPrimario) !important; 
+}
+
+.card-subtitle {
+    color: var(--colorSecundario) !important;
+}
+
+.article-title > a {
+    color: white !important;
+    background-image: none;
+}
+
+p.article-meta {
+    color: white;
+}
+
+article {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.bajada {
+    margin-top: 4em;
+}
+
+footer {
+    background-color: white;
+    padding-top: 20px;
+}
+
+footer img {
+    width: auto;
+    height: 60px;
+}
+
+
+
